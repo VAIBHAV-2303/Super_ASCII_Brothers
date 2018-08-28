@@ -83,7 +83,7 @@ Requirements.txt contains the other relevant details.
 
 ## Author
 
-* Vaibhav Garg(Roll N0.- 20171005)
+* Vaibhav Garg(Roll No.- 20171005)
 
 
 ## Easter Eggs
