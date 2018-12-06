@@ -4,13 +4,11 @@
 ||
 /\
 
-'''
-
-'''Contains the boss class'''
+Contains the boss class'''
 
 
-class boss():
-
+class Boss():
+    '''Boss class'''
     def __init__(self):
         '''Initialization'''
         self.posX = 19
@@ -21,18 +19,18 @@ class boss():
         self.health = 5
 
     def moveleft(self):
-
+        '''Left movement'''
         if self.posY > 2:
             self.posY -= 1
 
     def moveright(self):
-
+        '''Right movement'''
         if self.posY < 78:
             self.posY += 1
 
     def always(self):
         '''Inair handling'''
-        if self.inair == True:
+        if self.inair:
             self.inairtime += 1
             if self.inairtime == 3:
                 self.posX -= 1
@@ -46,12 +44,12 @@ class boss():
                 self.posX += 1
 
     def movejump(self):
-
-        if self.inair == False:
+        '''Jump movement'''
+        if not self.inair:
             self.inair = True
             self.posX -= 1
             self.inairtime = 1
 
     def shoot(self):
-
+        '''Random continuous shooting'''
         self.bulletarr.append([self.posX + 1, self.posY])

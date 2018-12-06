@@ -1,0 +1,6 @@
+README.md
+setup.py
+mario.egg-info/PKG-INFO
+mario.egg-info/SOURCES.txt
+mario.egg-info/dependency_links.txt
+mario.egg-info/top_level.txt

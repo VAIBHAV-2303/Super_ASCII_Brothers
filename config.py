@@ -1,32 +1,36 @@
-'''Contains The globalvarl 
+'''Contains The globalvarl
    scenery position'''
 
 
-class globalvar():
+class Globalvar():
+
+    '''Global configuration'''
 
     def __init__(self):
         '''Initialization'''
-        self.GlobalX = 0
+        self.globalx = 0
         self.waterx = 89
         self.cloudx = 32
         self.cloud2x = 35
         self.cloud3x = 47
-        self.Mountainx = 28
+        self.mountainx = 28
 
-    def update(self, character, Enemyarr, Brickarr, Coinarr, springarr, Pipearr):
+    def update(self, character, Enemyarr, brickarr, coinarr, springarr, pipearr):
+
+        '''Moving scene elements'''
 
         if character == 'a':
-            ''' Handling scene elements'''
-            if self.GlobalX > 0:
-                self.GlobalX -= 1
+            # Handling scene elements
+            if self.globalx > 0:
+                self.globalx -= 1
 
                 self.waterx += 1
                 if self.waterx == 89:
                     self.waterx = -15
 
-                self.Mountainx += 1
-                if self.Mountainx == 89:
-                    self.Mountainx = -9
+                self.mountainx += 1
+                if self.mountainx == 89:
+                    self.mountainx = -9
 
                 self.cloudx += 1
                 if self.cloudx == 89:
@@ -41,32 +45,32 @@ class globalvar():
                     self.cloud3x = -6
 
                 for enemyx in Enemyarr:
-                    enemyx.posY += 1
+                    enemyx.posy += 1
 
-                for brickx in Brickarr:
-                    brickx.posY += 1
+                for brickx in brickarr:
+                    brickx.posy += 1
 
-                for coinx in Coinarr:
-                    coinx.posY += 1
+                for coinx in coinarr:
+                    coinx.posy += 1
 
                 for springs in springarr:
-                    springs.posY += 1
+                    springs.posy += 1
 
-                for pipe in Pipearr:
-                    pipe.posY += 1
+                for pipe in pipearr:
+                    pipe.posy += 1
 
         elif character == 'd':
 
-            ''' Handling scene elements'''
-            self.GlobalX += 1
+            # Handling scene elements
+            self.globalx += 1
 
             self.waterx -= 1
             if self.waterx == -15:
                 self.waterx = 89
 
-            self.Mountainx -= 1
-            if self.Mountainx == -9:
-                self.Mountainx = 89
+            self.mountainx -= 1
+            if self.mountainx == -9:
+                self.mountainx = 89
 
             self.cloudx -= 1
             if self.cloudx == -5:
@@ -81,16 +85,16 @@ class globalvar():
                 self.cloud3x = 89
 
             for enemyx in Enemyarr:
-                enemyx.posY -= 1
+                enemyx.posy -= 1
 
-            for brickx in Brickarr:
-                brickx.posY -= 1
+            for brickx in brickarr:
+                brickx.posy -= 1
 
-            for coinx in Coinarr:
-                coinx.posY -= 1
+            for coinx in coinarr:
+                coinx.posy -= 1
 
             for springs in springarr:
-                springs.posY -= 1
+                springs.posy -= 1
 
-            for pipe in Pipearr:
-                pipe.posY -= 1
+            for pipe in pipearr:
+                pipe.posy -= 1

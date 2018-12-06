@@ -38,7 +38,7 @@ This game was developed using the principles of Object-Oriented Programming. Mar
 
 * Run the game: 	
 	```console
-	bar@foo:~$ python3 Core.py
+	bar@foo:~$ python3 core.py
 	```
 * Move left: Press and/or hold 'a'
 * Move right: Press and/or hold 'd'
@@ -77,13 +77,15 @@ This game was developed using the principles of Object-Oriented Programming. Mar
 
 * [Python3](https://www.python.org/download/releases/3.0/)
 * [Colorama](https://pypi.org/project/colorama/)
+* [Tox](https://tox.readthedocs.io/en/latest/)
+* [Pytest](https://docs.pytest.org/en/latest/)
 
 Requirements.txt contains the other relevant details.
 
 
 ## Author
 
-* Vaibhav Garg(Roll No.- 20171005)
+* Vaibhav Garg(Roll N0.- 20171005)
 
 
 ## Easter Eggs
@@ -94,3 +96,15 @@ Pressing 9 gives an extra life.
 ### Superpower
 In scene 3, making a straight jump after standing at the topmost brick reveals a hidden brick which enhances Mario's shooting power.
 
+## Testing And Refactoring
+
+### Testing 
+Automated testing integrated with Tox and Pytest.
+
+* Test the game: 	
+	```console
+	bar@foo:~$ tox
+	```
+
+### Refactoring
+Code has been refactored considering Pylint Standards and variious code smells.
