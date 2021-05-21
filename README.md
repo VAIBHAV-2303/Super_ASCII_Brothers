@@ -37,8 +37,8 @@ This game was developed using the principles of Object-Oriented Programming. Mar
 ## How To
 
 * Run the game: 	
-	```console
-	bar@foo:~$ python3 core.py
+	```bash
+	bar@foo:~/Super_ASCII_Brothers$ python3 core.py
 	```
 * Move left: Press and/or hold 'a'
 * Move right: Press and/or hold 'd'
@@ -102,8 +102,8 @@ In scene 3, making a straight jump after standing at the topmost brick reveals a
 Automated testing integrated with Tox and Pytest.
 
 * Test the game: 	
-	```console
-	bar@foo:~$ tox
+	```bash
+	bar@foo:~/Super_ASCII_Brothers$ tox
 	```
 
 ### Refactoring
