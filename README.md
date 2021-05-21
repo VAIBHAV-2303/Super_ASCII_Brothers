@@ -38,7 +38,7 @@ This game was developed using the principles of Object-Oriented Programming. Mar
 
 * Run the game: 	
 	```bash
-	bar@foo:~/Super_ASCII_Brothers$ python3 core.py
+	bar@foo:~/Super_ASCII_Brothers$ python3 src/core.py
 	```
 * Move left: Press and/or hold 'a'
 * Move right: Press and/or hold 'd'

@@ -1,0 +1,16 @@
+action: py38, msg: installpkg
+cwd: /home/vaibhav/Super_ASCII_Brothers
+cmd: /home/vaibhav/Super_ASCII_Brothers/.tox/py38/bin/python -m pip install --no-deps -U .tox/.tmp/package/1/mario-1.0.zip
+Processing ./.tox/.tmp/package/1/mario-1.0.zip
+Building wheels for collected packages: mario
+  Building wheel for mario (setup.py): started
+  Building wheel for mario (setup.py): finished with status 'done'
+  Created wheel for mario: filename=mario-1.0-py3-none-any.whl size=1098 sha256=f3038f6f68e2e8f78b696225269b40dbf2de1da36db5d905f63cb7ce55980c64
+  Stored in directory: /home/vaibhav/.cache/pip/wheels/f8/f3/12/41a1321fe40ac6aba6451984761e4349d9ea675438d06cbd32
+Successfully built mario
+Installing collected packages: mario
+  Attempting uninstall: mario
+    Found existing installation: mario 1.0
+    Not uninstalling mario at /home/vaibhav/Super_ASCII_Brothers, outside environment /home/vaibhav/Super_ASCII_Brothers/.tox/py38
+    Can't uninstall 'mario'. No files were found to uninstall.
+Successfully installed mario-1.0

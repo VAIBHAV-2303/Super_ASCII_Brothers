@@ -1,0 +1,33 @@
+action: GLOB, msg: packaging
+cwd: /home/vaibhav/Super_ASCII_Brothers
+cmd: /usr/bin/python3 setup.py sdist --formats=zip --dist-dir .tox/dist
+running sdist
+running egg_info
+writing mario.egg-info/PKG-INFO
+writing dependency_links to mario.egg-info/dependency_links.txt
+writing top-level names to mario.egg-info/top_level.txt
+reading manifest file 'mario.egg-info/SOURCES.txt'
+writing manifest file 'mario.egg-info/SOURCES.txt'
+running check
+creating mario-1.0
+creating mario-1.0/mario.egg-info
+copying files to mario-1.0...
+copying README.md -> mario-1.0
+copying setup.py -> mario-1.0
+copying mario.egg-info/PKG-INFO -> mario-1.0/mario.egg-info
+copying mario.egg-info/SOURCES.txt -> mario-1.0/mario.egg-info
+copying mario.egg-info/dependency_links.txt -> mario-1.0/mario.egg-info
+copying mario.egg-info/top_level.txt -> mario-1.0/mario.egg-info
+Writing mario-1.0/setup.cfg
+creating '.tox/dist/mario-1.0.zip' and adding 'mario-1.0' to it
+adding 'mario-1.0'
+adding 'mario-1.0/mario.egg-info'
+adding 'mario-1.0/README.md'
+adding 'mario-1.0/setup.py'
+adding 'mario-1.0/setup.cfg'
+adding 'mario-1.0/PKG-INFO'
+adding 'mario-1.0/mario.egg-info/SOURCES.txt'
+adding 'mario-1.0/mario.egg-info/PKG-INFO'
+adding 'mario-1.0/mario.egg-info/top_level.txt'
+adding 'mario-1.0/mario.egg-info/dependency_links.txt'
+removing 'mario-1.0' (and everything under it)

@@ -1,0 +1,23 @@
+action: py38, msg: getenv
+cwd: /home/vaibhav/Super_ASCII_Brothers
+cmd: /home/vaibhav/Super_ASCII_Brothers/.tox/py38/bin/python -m pip install pytest colorama
+Collecting pytest
+  Downloading pytest-6.2.4-py3-none-any.whl (280 kB)
+Collecting colorama
+  Downloading colorama-0.4.4-py2.py3-none-any.whl (16 kB)
+Collecting packaging
+  Downloading packaging-20.9-py2.py3-none-any.whl (40 kB)
+Collecting attrs>=19.2.0
+  Downloading attrs-21.2.0-py2.py3-none-any.whl (53 kB)
+Collecting py>=1.8.2
+  Downloading py-1.10.0-py2.py3-none-any.whl (97 kB)
+Collecting iniconfig
+  Downloading iniconfig-1.1.1-py2.py3-none-any.whl (5.0 kB)
+Collecting toml
+  Downloading toml-0.10.2-py2.py3-none-any.whl (16 kB)
+Collecting pluggy<1.0.0a1,>=0.12
+  Downloading pluggy-0.13.1-py2.py3-none-any.whl (18 kB)
+Collecting pyparsing>=2.0.2
+  Downloading pyparsing-2.4.7-py2.py3-none-any.whl (67 kB)
+Installing collected packages: pyparsing, packaging, attrs, py, iniconfig, toml, pluggy, pytest, colorama
+Successfully installed attrs-21.2.0 colorama-0.4.4 iniconfig-1.1.1 packaging-20.9 pluggy-0.13.1 py-1.10.0 pyparsing-2.4.7 pytest-6.2.4 toml-0.10.2

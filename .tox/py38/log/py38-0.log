@@ -1,0 +1,7 @@
+action: py38, msg: getenv
+cwd: /home/vaibhav/Super_ASCII_Brothers/.tox
+cmd: /usr/bin/python3 -m virtualenv --no-download --python /usr/bin/python3 py38
+created virtual environment CPython3.8.5.final.0-64 in 216ms
+  creator CPython3Posix(dest=/home/vaibhav/Super_ASCII_Brothers/.tox/py38, clear=False, global=False)
+  seeder FromAppData(download=False, pip=latest, setuptools=latest, wheel=latest, pkg_resources=latest, via=copy, app_data_dir=/home/vaibhav/.local/share/virtualenv/seed-app-data/v1.0.1.debian.1)
+  activators BashActivator,CShellActivator,FishActivator,PowerShellActivator,PythonActivator,XonshActivator
